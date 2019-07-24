@@ -1,33 +1,29 @@
-# AJACS徳島 ゲノムブラウザ／発現・局在関連データベース
+# AJACS宮崎2 遺伝子発現データの生物学的解釈を助けるデータベース・ウェブツールの使い方
 
 大学共同利用機関法人 情報・システム研究機構  
 データサイエンス共同利用基盤施設  
 ライフサイエンス統合データベースセンター    
 [小野 浩雅](https://sites.google.com/a/dbcls.rois.ac.jp/hono/)  
 hono@dbcls.rois.ac.jp  
-2019年6月6日(木)
-AJACS徳島 @ 大塚製薬株式会社 徳島研究所 2研ホール
+2019年8月28日(水)
+AJACS宮崎2 @ 宮崎大学　木花キャンパス　情報基盤センター
 
 ----
 
-これは統合データベース講習会 AJACS徳島「ゲノムブラウザ／発現・局在関連データベース」の講習資料です。  
-講習会全体のプログラムは[こちら](https://biosciencedbc.jp/event/ajacs/ajacs76.html)です。
+これは統合データベース講習会 AJACS宮崎2「遺伝子発現データの生物学的解釈を助けるデータベース・ウェブツールの使い方」の講習資料です。  
+講習会全体のプログラムは[こちら](https://biosciencedbc.jp/event/ajacs/ajacs78.html)です。
 © 2019 小野 浩雅, [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)
 
 ----
 
 ## 概要
 
-本講習は、だれでも自由に使うことができる公共データベースやウェブツールを活用して、研究のさまざまな場面で調べることの多い「遺伝子」を中心とした種々の情報を取得する方法について解説します。また、遺伝子発現データという観点で、個々の遺伝子発現データを簡単に調べるための方法と基礎知識について解説します。 さらに、自ら行なった大規模発現解析の(あるいは公共データベースから取得・解析した)結果として得られた数百〜数千におよぶ遺伝子セットについて、生物学的な解釈をする方法とその結果の考察を実践します。  
-
+本講習だれでも自由に使うことができる公共データベースやウェブツールを活用して、研究のさまざまな場面で調べることの多い個々の遺伝子発現データを簡単に調べるための方法と基礎知識について学びます。続いて、数百～数千におよぶ遺伝子セットについて、生物学的な解釈をする方法とその結果の考察を実践します。 
+ 
 ----
 
 ## 講習の流れ
 今回の講習では、コンピュータを使って以下の内容について説明します。
-
-- ゲノムデータベース・ゲノムブラウザ
-  - UCSC Genome Browser
-    - 【実習】UCSC ゲノムブラウザを使ってGTExのデータを閲覧してみる
 
 - 個々の遺伝子の発現プロファイルを調べる
   - RefEx
@@ -50,7 +46,7 @@ AJACS徳島 @ 大塚製薬株式会社 徳島研究所 2研ホール
 - 実験的な試みとしてWeb上で質問・コメントできるフォームを用意してみました。
     - https://www.sli.do (「新しいタブで開く」とよいです)
      - ウェブブラウザで sli.do と入力(スマホでもアクセス可能)
-     - AJ76 と入力
+     - AJ78 と入力
      - 質問をする (ﾟдﾟ)ｶﾝﾀﾝｰ
 
  - こんなことは知ってて当たり前だと他の人に思われる質問を歓迎します。質問することのハードルを下げます。
@@ -78,99 +74,6 @@ AJACS徳島 @ 大塚製薬株式会社 徳島研究所 2研ホール
 |大規模発現解析の予定はない|11 名|23 %|
 |回答なし|3 名|6 %|
 ---
-
-## ゲノムデータベース・ゲノムブラウザ
-### ゲノムデータベースとは？
-- ゲノム配列をはじめとした（遺伝）情報を生物種ごとにまとめたデータベース
-- 狭義にはゲノム配列のデータベースを指す
-
-#### さまざまなゲノムデータベース
-- [NCBI](https://www.ncbi.nlm.nih.gov/) (National Center for Biotechnology Information) の [**Genome**](https://www.ncbi.nlm.nih.gov/genome/)
-  - [生物種ごと(Browse by Organism)](https://www.ncbi.nlm.nih.gov/genome/browse#!/overview/)
-- [GOLD: Genomes Online Database](https://gold.jgi.doe.gov/index)
-	- ゲノム塩基配列解読プロジェクトを集めたデータベース
-- [PlantGDB](http://www.plantgdb.org)
-  - [Plant Genome Database Japan(PGDB)](http://pgdbj.jp/)
-- [MicrobeDB.jp](http://microbedb.jp/MDB/)
-
-#### コミュニティによるゲノムデータベース
-
-- Mouse Genome Informatics (MGI) - マウス
-	- http://www.informatics.jax.org/
-- Rat Genome Database (RGD) - ラット
-	- https://rgd.mcw.edu/
-- WormBase - 線虫
-	- https://www.wormbase.org/
-- FlyBase - ショウジョウバエ
-	- http://flybase.org/
-- The Arabidopsis Information Resource (TAIR) - シロイヌナズナ
-	- https://www.arabidopsis.org/
-- Saccharomyces Genome Database (SGD) - 酵母
-	- https://www.yeastgenome.org/
-- CyanoBase - シアノバクテリア（光合成細菌）
-	- http://genome.microbedb.jp/cyanobase/
-
----
-
-### ゲノムブラウザとは？
-
-- 塩基配列解読したゲノム配列とそこに付与（アノテーション）された情報を見るための仕組み
-- オンライン型とローカル型
-  - オンライン型：ウェブブラウザ上でサーバにあるゲノムデータベースから必要な情報を取り出してこれる
-  	- UCSC Genome Browser https://genome.ucsc.edu/
-      - 【統合TV】[「UCSC」](https://togotv.dbcls.jp/tags.html?tag=UCSC)のタグ(講習含む計27本の動画)
-  	- Ensembl Genome Browser https://www.ensembl.org/
-      - 【統合TV】[「Ensembl」](https://togotv.dbcls.jp/tags.html?tag=Ensembl)のタグ(講習含む計25本の動画)
-  	- NCBI Genome Data Viewer https://www.ncbi.nlm.nih.gov/genome/gdv/
-  	- Togogenome http://togogenome.org/
-      - 【統合TV】[TogoGenome を使って生物種とゲノムに関する多種多様な情報を統合的に検索する](https://togotv.dbcls.jp/20180726.html)
-  - ローカル型：手元のコンピュータにインストールして使用
-  	- Integrative Genomics Viewer(IGV) https://software.broadinstitute.org/software/igv/
-      - 【統合TV】[Integrative Genomics Viewer IGVを使い倒す 〜基本編〜](https://togotv.dbcls.jp/20140529.html)
-
-#### 【実習】UCSC ゲノムブラウザを使ってGTExのデータを閲覧してみる
-
-- 【統合TV】: [UCSC Genome Browser を使って様々な組織、細胞における遺伝子発現データをゲノムブラウザで表示する](https://togotv.dbcls.jp/ja/20171116.html)
-- 【統合TV】: [GTEx Portalを使ってヒトの各組織での遺伝子発現量や影響するeQTLを調べる](https://togotv.dbcls.jp/20180101.html)
-  - [Genotype-Tissue Expression (GTEx)](https://www.gtexportal.org/home/) プロジェクトは米国ブロード研究所(Broad Institute)をはじめとする南北米および欧州の複数の研究機関からなる国際コンソーシアムによる、ヒトの体組織ごと、遺伝子型ごとの遺伝子発現を網羅的に調べたプロジェクトです。 そのポータルサイトであるGTEx Portalでは、GTExプロジェクトで収集・解析された遺伝子の発現量や関連するeQTL(expression Quantitative Trait Locus: 遺伝子の発現量に影響を与える座位)などのデータがまとめられています。
-
-
-1. 「[UCSC Genome Browser](https://genome.ucsc.edu/)」で、トップページを開きます
-1. トップページにはツール名がリストされているので一番上にある「Genome Browser」をクリックします
-![UCSCトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_04.png)
-1. 最寄りのミラーサイトに接続します
-![UCSC mirror](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_05.png)
-1. Genome Browserのページが開くので、生物種「Human」と最新のゲノムアセンブリ「Dec. 2013 (GRCh38/hg38)」が選択されていることを確認して、そのまま「Go」をクリックします
-![GenomeBrowserトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_06.png)
-1. Current position: chr1:11,102,837-11,267,747 の領域が表示されます。GTExのトラックは初期設定だと画面中央(赤枠)にあります
-![chr1:11,102,837-11,267,747](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_07.png)
-1. GTEx のトラックでは組織ごとの遺伝子発現量がバーチャートで表示されており、マウスオーバーすると発現値と組織名が示されます
-  - バーチャートの横幅は遺伝子の領域とは無関係であることに注意
-  - 横線の色は遺伝子のタイプを示し、青はprotein-coding、緑はnon-coding、ピンクはpseudogene
-![マウスオーバー](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_08.png)
-1. グラフ自体をクリックすると詳細情報を閲覧できます
-  - トラック上のバーチャートでは発現値はlog10変換されているが、詳細情報の箱ひげ図ではlog10変換されていないことに注意
-![箱ひげ図](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_09.png)
-1. 一つ前のページに戻って、下部に移動すると「GTEx Gene」のトラックがあるので、そこをクリックすると設定画面に移動します
-![GTEx Geneトラック](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_10.png)
- - デフォルトでは、全ての組織が表示されるようになっています。特に比較したい組織がある場合は、Clear allをクリックして選択を解除してから、目的の組織だけを選択します
- - 発現値のlog10変換はこの画面で設定変更できます
-1. 一つ前のページに戻って、「track hubs」を活用すると、GTExデータのようなUCSC外部のデータソースに由来する様々なアノテーショントラックを追加できます。
-![track hubs](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_11.png)
-1. 細胞ごとのmiRNAの発現量を表示できるトラック「Human cellular microRNAome barChart」を選択して「Connect」をクリックします
- - 3つの異なる研究データに基づくヒトの78の初代培養細胞と42のがん細胞あるいは不死化細胞のmiRNA発現量を測定したデータです([原著論文: Toward the human cellular microRNAome](https://genome.cshlp.org/content/27/10/1769))
-![Human cellular microRNAome barChart](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_12.png)
-1. 自動的に画面が遷移してGenome Browserのトップページに戻るので、検索したいmiRNA(今回は例としてMIR126)を検索窓に入力します。
-![search for MIR126](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_13.png)
-1. [MIR126の領域](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr9%3A136670602%2D136670686&hgsid=727916439_U4isI9rJMtlZRcqlhIG7YGeB53Lv)のデータがバーチャートで表示されます。
-![MIR126](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_14.png)
-1. その他、いろいろ変更して表示してみましょう。わからなくなったら、図の下に並んでいるボタンの「default tracks」を押すと最初の状態に戻せます。
-
-- 設定変更や追加で表示可能なアノテーションを調べる方法
-  - 【統合TV】: [UCSC Genome Browserで表示できるアノテーションを調べる 2018](https://togotv.dbcls.jp/20180710.html)
-
----
-
 
 ## 個々の遺伝子の発現プロファイルを調べる
 
