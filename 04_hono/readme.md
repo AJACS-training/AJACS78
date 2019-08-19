@@ -270,7 +270,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 
 - Enrichr
   - 【統合TV】[Dataset2Tools でオミックスデータとその解析事例、計算ツールを検索し、再現性の高い再解析を行う](https://togotv.dbcls.jp/20181021.html)
-  - 4. Enrichr による RNA-seq データのエンリッチメント解析 (6:00~)
+  - (6:00~) Enrichr による RNA-seq データのエンリッチメント解析 
 
 ----
 
