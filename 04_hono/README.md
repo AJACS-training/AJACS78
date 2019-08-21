@@ -263,17 +263,18 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 8. [答え合わせ](https://github.com/AJACS-training/AJACS78/blob/master/04_hono/190821_ChIP-Atlas_answer.md)
 
 #### 関連するツール
-- DAVID
+- [DAVID](https://david.ncifcrf.gov/home.jsp)
   - DAVIDはマイクロアレイ実験から得られたデータを解析するツールです。このツールを使うことで発現変動のあった遺伝子群の特徴を可視化し、直感的に分析することができます。DAVIDという名前はThe Database for Annotation, Visualization and Integrated Discoveryの頭文字に由来しています。
   - 【統合TV】[DAVIDを使ってマイクロアレイデータを解析する 2012](https://togotv.dbcls.jp/20120927.html)
 
-- metascape
+- [Metascape](http://metascape.org/gp/index.html#/main/step1)
   - Metascapeは、ウェブ上でヒト・マウス・ラットのエンリッチメント解析ができるツールです。リストに含まれる遺伝子にどのような機能を持つものが多いか、クラスタリングなどによって直感的に分析することができます。IDリストのほかタイムコースなどの複数リストデータも使用可能で、複数リスト間のアノテーションについて差分を表示することもできます。
   - 【統合TV】[Metascapeを使って、遺伝子リストの生物学的解釈をする](https://togotv.dbcls.jp/20160927.html)
 
-- Enrichr
+- [Enrichr](https://amp.pharm.mssm.edu/Enrichr/)
   - 【統合TV】[Dataset2Tools でオミックスデータとその解析事例、計算ツールを検索し、再現性の高い再解析を行う](https://togotv.dbcls.jp/20181021.html)
   - (6:00~) Enrichr による RNA-seq データのエンリッチメント解析
+  - 特定のモデル生物(ショウジョウバエ、酵母、線虫、ゼブラフィッシュ)に特化したEnrichrもある。
 
 ----
 
