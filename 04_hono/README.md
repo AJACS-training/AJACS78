@@ -166,15 +166,15 @@ AJACS宮崎2 @ 宮崎大学　木花キャンパス　情報基盤センター
 14. 自分の研究テーマに関連する、また興味のある遺伝子について検索してみましょう。
 
 #### 関連するツール
-- ExpressionAtlas
+- [ExpressionAtlas](https://www.ebi.ac.uk/gxa)
   - Expression Atlas は、EMBL-EBI (欧州バイオインフォマティクス研究所) が運営する、様々な生物種における遺伝子発現情報を提供するウェブサイトである。40 の生物種について、3000 以上の実験に基づき、組織や細胞種、発生段階、疾患の有無などの条件別に、遺伝子の発現情報をまとめられています。
   - 【統合TV】[Expression Atlas で 様々な生物種の組織や疾患などにおける遺伝子発現の情報を調べる](https://togotv.dbcls.jp/20180725.html)
 
-- Bgee
+- [Bgee](https://bgee.org/)
   - Bgee (a dataBase for Gene Expression Evolution: ビージーと発音します) は、SIB Swiss Institute of Bioinformatics/ローザンヌ大学の Robinson-Rechavi Group - Evolutionary Bioinformaticsが提供するデータベースで、これはRNA-seqやマイクロアレイなどから得られた遺伝子発現パターンについて、多くの生物種間で比較することができます。
   - 【統合TV】[Bgee を使って、複数の生物種の正常組織における遺伝子発現データを検索、比較、取得する](https://togotv.dbcls.jp/20180918.html)
 
-- BioGPS
+- [BioGPS](http://biogps.org/#goto=welcome)
   - AffymetrixのマイクロアレイであるGeneChipを用いたヒト、マウス、ラットを始め全9生物種におけるさまざまな組織や細胞(株)における遺伝子発現プロファイルのデータベースです。
   - 【統合TV】[遺伝子発現プロファイルデータベースBioGPSを使い倒す 2012](https://togotv.dbcls.jp/20120911.html)
 
