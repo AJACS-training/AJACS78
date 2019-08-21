@@ -255,12 +255,11 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 1. 計算が終わるまで待ちます
 ![fig14](https://raw.githubusercontent.com/hiromasaono/training/master/images/181104_14.png)
 1. 計算が終わると、「Result URL」が有効になります。
-  1. 今回の例では、 http://ddbj.nig.ac.jp/wabi/chipatlas/wabi_chipatlas_2018-1104-1735-21-275-473936?info=result&format=html
+  - 今回の例では、 http://ddbj.nig.ac.jp/wabi/chipatlas/wabi_chipatlas_2018-1104-1735-21-275-473936?info=result&format=html
 1. 結果の解釈をします。
-  1. 今回は、どういう「興味ある遺伝子リスト」をクエリとしたか考察してみましょう。
-  1. 「p-valueが低く、Overlaps/My dataが多く、Fold Enrichmentが高い」転写因子がたくさんヒットしてくる　
-    1. → 入力した遺伝子群をまとめて制御する、マスター転写因子を抽出できている可能性が高いと言えます。
-
+  - 今回は、どういう「興味ある遺伝子リスト」を使ったか、について上記の結果から考察してみましょう。
+    - 「p-valueが低く、Overlaps/My dataが多く、Fold Enrichmentが高い」転写因子がたくさんヒットしてくる　
+    - → 入力した遺伝子群をまとめて制御する、マスター転写因子を抽出できている可能性が高いと解釈できる。
 1. [答え合わせ](https://github.com/AJACS-training/AJACS78/blob/master/04_hono/190821_ChIP-Atlas_answer.md)
 
 #### 関連するツール
