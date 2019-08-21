@@ -206,6 +206,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
   - 【統合TV】「[ChIP\-Atlasを使って共局在タンパク質を探す 〜Colocalizationの使い方〜](https://togotv.dbcls.jp/20180128.html)」
 ##### Enrichment Analysis
   - ユーザデータを受け付け、既存データとの比較解析をおこないます。たとえば、興味のある遺伝子リストを submit すると、それらをまとめて制御する転写因子候補が返されます。ほかにも BED 形式のファイルや、シーケンスモチーフを submit すると、それらに enrichment する転写因子群が返されます。
+  - 【統合TV】[ChIP\-Atlasを使って興味ある遺伝子リストを制御する可能性の高い転写因子を調べる 〜Enrichment Analysisの使い方〜](https://togotv.dbcls.jp/20190105.html)
 
 
 #### 利用例
@@ -229,9 +230,12 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 - Publications citing ChIP-Atlas http://chip-atlas.org/publications
 
 ### 【実習】ChIP-AtlasのEnrichment Analysis を使って、興味ある遺伝子リストを制御する可能性の高い転写因子を調べる
+- 【統合TV】[ChIP\-Atlasを使って興味ある遺伝子リストを制御する可能性の高い転写因子を調べる 〜Enrichment Analysisの使い方〜](https://togotv.dbcls.jp/20190105.html)
+- 【統合TV】[ChIP\-Atlas: 既報のChIP\-seqデータをフル活用できる ＠ AJACS町田](https://togotv.dbcls.jp/20190113.html)
+
 - 「発現差のあった遺伝子リスト」を持っている想定で、それらの遺伝子に結合しうる、あるいは上流でそれらの遺伝子の発現を制御する可能性がある転写因子を検索する
 - 使用するデータ
-  - [190606_List_of_GeneSymbol_txt](https://github.com/AJACS-training/AJACS76/blob/master/05_hono/190606_List_of_GeneSymbol.txt)
+  - [190821_List_of_GeneSymbol_txt](https://github.com/AJACS-training/AJACS78/blob/master/04_hono/190821_List_of_GeneSymbol.txt)
     - ある「興味ある遺伝子リスト」をGeneSymbolにID変換したデータ。
     - これを使って、もともとどういう遺伝子リストだったかを考察します。
   - ChIP-Atlas では、遺伝子IDとしてGeneSymbolのみを受け付けているので、それ以外のIDで遺伝子リストを持っている場合は、適宜変換が必要です。
@@ -257,7 +261,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
   - 「p-valueが低く、Overlaps/My dataが多く、Fold Enrichmentが高い」転写因子がたくさんヒットしてくる　
     - → 入力した遺伝子群をまとめて制御する、マスター転写因子を抽出できている可能性が高いと言えます。
 
-1. [答え合わせ](https://github.com/AJACS-training/AJACS76/blob/master/05_hono/190606_ChIP-Atlas_answer.md)
+1. [答え合わせ](https://github.com/AJACS-training/AJACS78/blob/master/04_hono/190821_ChIP-Atlas_answer.md)
 
 #### 関連するツール
 - DAVID
