@@ -114,9 +114,6 @@ ABI PRISM&#174; 3100-Avant Genetic Analyzerより
   [![](images/ajacs64.nakazato.pm.010.png)]()
         http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html#bioinfo_ngs_sokushu_2016_20160719
 
-- 解析環境・ウェブベース
-  [![](images/ajacs64.nakazato.pm.011.png)]()
-        http://p.ddbj.nig.ac.jp/
 
 
 ## 実際の解析1：クオリティチェック・トリミング
