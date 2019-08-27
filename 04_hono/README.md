@@ -18,8 +18,8 @@ AJACS宮崎2 @ 宮崎大学　木花キャンパス　情報基盤センター
 
 ## 概要
 
-本講習だれでも自由に使うことができる公共データベースやウェブツールを活用して、研究のさまざまな場面で調べることの多い個々の遺伝子発現データを簡単に調べるための方法と基礎知識について学びます。続いて、数百～数千におよぶ遺伝子セットについて、生物学的な解釈をする方法とその結果の考察を実践します。 
- 
+本講習だれでも自由に使うことができる公共データベースやウェブツールを活用して、研究のさまざまな場面で調べることの多い個々の遺伝子発現データを簡単に調べるための方法と基礎知識について学びます。続いて、数百～数千におよぶ遺伝子セットについて、生物学的な解釈をする方法とその結果の考察を実践します。
+
 ----
 
 ## 講習の流れ
@@ -43,17 +43,17 @@ AJACS宮崎2 @ 宮崎大学　木花キャンパス　情報基盤センター
     - 資料を見ながら自力で進められそうな方はどんどん先に、そうでない方は講師と一緒にすすめていきましょう。
     - サイトの反応が悪い時はタイミングをずらして実行してみてください。
     - 反応が無いからと言って何度もクリックするとますます繋がらなくなってしまいます。おおらかな気持ちで臨みましょう。
-- 実験的な試みとしてWeb上で質問・コメントできるフォームを用意してみました。
+- Web上で質問・コメントできるフォームを用意していますので、ご活用ください。
     - https://www.sli.do (「新しいタブで開く」とよいです)
      - ウェブブラウザで sli.do と入力(スマホでもアクセス可能)
      - AJ78 と入力
      - 質問をする (ﾟдﾟ)ｶﾝﾀﾝｰ
 
- - こんなことは知ってて当たり前だと他の人に思われる質問を歓迎します。質問することのハードルを下げます。
-    - 知っている人は講師を助けてください。サポート大歓迎です。
-    - あなたが疑問に思ったことは、実は、隣の人やその隣の人もそう思っていることが多いです。
-    - 当たり前に感じる質問や一見関係なさそうな質問がでると、「そういう質問をしてもよいのだ」という空気になり、この講義から得られる情報が増え、皆さんの受講満足度が上がります(たぶん)。
-    - でも講師も知らないことは(多々)あります。(以下ループ)
+- こんなことは知ってて当たり前だと他の人に思われるような「シロウト」質問を歓迎します。
+  - 当たり前に感じる質問や一見関係なさそうな質問がでると、「そういう質問をしてもよいのだ」という空気になり、この講義から得られる情報が増え、皆さんの受講満足度が上がります(たぶん)。
+  - あなたがいま疑問に思ったことは、実は、隣の人やその隣の人もそう思っていることが多いです。
+  - 知っている人は講師を助けてください。サポート大歓迎です
+  - でも講師も知らないことは(多々)あります。(以下ループ)
 
 
 ----
@@ -166,15 +166,15 @@ AJACS宮崎2 @ 宮崎大学　木花キャンパス　情報基盤センター
 14. 自分の研究テーマに関連する、また興味のある遺伝子について検索してみましょう。
 
 #### 関連するツール
-- ExpressionAtlas
+- [ExpressionAtlas](https://www.ebi.ac.uk/gxa)
   - Expression Atlas は、EMBL-EBI (欧州バイオインフォマティクス研究所) が運営する、様々な生物種における遺伝子発現情報を提供するウェブサイトである。40 の生物種について、3000 以上の実験に基づき、組織や細胞種、発生段階、疾患の有無などの条件別に、遺伝子の発現情報をまとめられています。
   - 【統合TV】[Expression Atlas で 様々な生物種の組織や疾患などにおける遺伝子発現の情報を調べる](https://togotv.dbcls.jp/20180725.html)
 
-- Bgee
+- [Bgee](https://bgee.org/)
   - Bgee (a dataBase for Gene Expression Evolution: ビージーと発音します) は、SIB Swiss Institute of Bioinformatics/ローザンヌ大学の Robinson-Rechavi Group - Evolutionary Bioinformaticsが提供するデータベースで、これはRNA-seqやマイクロアレイなどから得られた遺伝子発現パターンについて、多くの生物種間で比較することができます。
   - 【統合TV】[Bgee を使って、複数の生物種の正常組織における遺伝子発現データを検索、比較、取得する](https://togotv.dbcls.jp/20180918.html)
 
-- BioGPS
+- [BioGPS](http://biogps.org/#goto=welcome)
   - AffymetrixのマイクロアレイであるGeneChipを用いたヒト、マウス、ラットを始め全9生物種におけるさまざまな組織や細胞(株)における遺伝子発現プロファイルのデータベースです。
   - 【統合TV】[遺伝子発現プロファイルデータベースBioGPSを使い倒す 2012](https://togotv.dbcls.jp/20120911.html)
 
@@ -206,6 +206,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
   - 【統合TV】「[ChIP\-Atlasを使って共局在タンパク質を探す 〜Colocalizationの使い方〜](https://togotv.dbcls.jp/20180128.html)」
 ##### Enrichment Analysis
   - ユーザデータを受け付け、既存データとの比較解析をおこないます。たとえば、興味のある遺伝子リストを submit すると、それらをまとめて制御する転写因子候補が返されます。ほかにも BED 形式のファイルや、シーケンスモチーフを submit すると、それらに enrichment する転写因子群が返されます。
+  - 【統合TV】[ChIP\-Atlasを使って興味ある遺伝子リストを制御する可能性の高い転写因子を調べる 〜Enrichment Analysisの使い方〜](https://togotv.dbcls.jp/20190105.html)
 
 
 #### 利用例
@@ -229,9 +230,12 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 - Publications citing ChIP-Atlas http://chip-atlas.org/publications
 
 ### 【実習】ChIP-AtlasのEnrichment Analysis を使って、興味ある遺伝子リストを制御する可能性の高い転写因子を調べる
+- 【統合TV】[ChIP\-Atlasを使って興味ある遺伝子リストを制御する可能性の高い転写因子を調べる 〜Enrichment Analysisの使い方〜](https://togotv.dbcls.jp/20190105.html)
+- 【統合TV】[ChIP\-Atlas: 既報のChIP\-seqデータをフル活用できる ＠ AJACS町田](https://togotv.dbcls.jp/20190113.html)
+
 - 「発現差のあった遺伝子リスト」を持っている想定で、それらの遺伝子に結合しうる、あるいは上流でそれらの遺伝子の発現を制御する可能性がある転写因子を検索する
 - 使用するデータ
-  - [190606_List_of_GeneSymbol_txt](https://github.com/AJACS-training/AJACS76/blob/master/05_hono/190606_List_of_GeneSymbol.txt)
+  - [190821_List_of_GeneSymbol_txt](https://github.com/AJACS-training/AJACS78/blob/master/04_hono/190821_List_of_GeneSymbol.txt)
     - ある「興味ある遺伝子リスト」をGeneSymbolにID変換したデータ。
     - これを使って、もともとどういう遺伝子リストだったかを考察します。
   - ChIP-Atlas では、遺伝子IDとしてGeneSymbolのみを受け付けているので、それ以外のIDで遺伝子リストを持っている場合は、適宜変換が必要です。
@@ -252,25 +256,25 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 ![fig14](https://raw.githubusercontent.com/hiromasaono/training/master/images/181104_14.png)
 1. 計算が終わると、「Result URL」が有効になります。
   - 今回の例では、 http://ddbj.nig.ac.jp/wabi/chipatlas/wabi_chipatlas_2018-1104-1735-21-275-473936?info=result&format=html
-1. 結果の解釈をします。
-  - 今回は、どういう「興味ある遺伝子リスト」をクエリとしたか考察してみましょう。
-  - 「p-valueが低く、Overlaps/My dataが多く、Fold Enrichmentが高い」転写因子がたくさんヒットしてくる　
-    - → 入力した遺伝子群をまとめて制御する、マスター転写因子を抽出できている可能性が高いと言えます。
-
-1. [答え合わせ](https://github.com/AJACS-training/AJACS76/blob/master/05_hono/190606_ChIP-Atlas_answer.md)
+7. 結果の解釈をします。
+  - 今回は、どういう「興味ある遺伝子リスト」を使ったか、について上記の結果から考察してみましょう。
+    - 「p-valueが低く、Overlaps/My dataが多く、Fold Enrichmentが高い」転写因子がたくさんヒットしてくる　
+    - → 入力した遺伝子群をまとめて制御する、マスター転写因子を抽出できている可能性が高いと解釈できる。
+8. [答え合わせ](https://github.com/AJACS-training/AJACS78/blob/master/04_hono/190821_ChIP-Atlas_answer.md)
 
 #### 関連するツール
-- DAVID
+- [DAVID](https://david.ncifcrf.gov/home.jsp)
   - DAVIDはマイクロアレイ実験から得られたデータを解析するツールです。このツールを使うことで発現変動のあった遺伝子群の特徴を可視化し、直感的に分析することができます。DAVIDという名前はThe Database for Annotation, Visualization and Integrated Discoveryの頭文字に由来しています。
   - 【統合TV】[DAVIDを使ってマイクロアレイデータを解析する 2012](https://togotv.dbcls.jp/20120927.html)
 
-- metascape
+- [Metascape](http://metascape.org/gp/index.html#/main/step1)
   - Metascapeは、ウェブ上でヒト・マウス・ラットのエンリッチメント解析ができるツールです。リストに含まれる遺伝子にどのような機能を持つものが多いか、クラスタリングなどによって直感的に分析することができます。IDリストのほかタイムコースなどの複数リストデータも使用可能で、複数リスト間のアノテーションについて差分を表示することもできます。
   - 【統合TV】[Metascapeを使って、遺伝子リストの生物学的解釈をする](https://togotv.dbcls.jp/20160927.html)
 
-- Enrichr
+- [Enrichr](https://amp.pharm.mssm.edu/Enrichr/)
   - 【統合TV】[Dataset2Tools でオミックスデータとその解析事例、計算ツールを検索し、再現性の高い再解析を行う](https://togotv.dbcls.jp/20181021.html)
-  - (6:00~) Enrichr による RNA-seq データのエンリッチメント解析 
+  - (6:00~) Enrichr による RNA-seq データのエンリッチメント解析
+  - 特定のモデル生物(ショウジョウバエ、酵母、線虫、ゼブラフィッシュ)に特化したEnrichrもある。
 
 ----
 
