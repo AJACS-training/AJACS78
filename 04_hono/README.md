@@ -269,7 +269,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
   - 【統合TV】[DAVIDを使ってマイクロアレイデータを解析する 2012](https://togotv.dbcls.jp/20120927.html)
 
 - [Metascape](http://metascape.org/gp/index.html#/main/step1)
-  - Metascapeは、ウェブ上でヒト・マウス・ラットのエンリッチメント解析ができるツールです。リストに含まれる遺伝子にどのような機能を持つものが多いか、クラスタリングなどによって直感的に分析することができます。IDリストのほかタイムコースなどの複数リストデータも使用可能で、複数リスト間のアノテーションについて差分を表示することもできます。
+  - Metascapeは、ウェブ上でヒト・マウス・ラットのエンリッチメント解析ができるツールです。リストに含まれる遺伝子にどのような機能を持つものが多いか、クラスタリングなどによって直感的に分析することができます。IDリストのほかタイムコースなどの複数リストデータも使用可能で、複数リスト間のアノテーションについて差分を表示することもできます。
   - 【統合TV】[Metascapeを使って、遺伝子リストの生物学的解釈をする](https://togotv.dbcls.jp/20160927.html)
 
 - [Enrichr](https://amp.pharm.mssm.edu/Enrichr/)
@@ -356,7 +356,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
   - [ClinVarで疾患に関連する変異を検索し、Variation Viewerで視覚的に変異を探す](https://togotv.dbcls.jp/20180122.html)
   - [gnomADを使ってヒトのエキソームやゲノムのデータから変異を探す](https://togotv.dbcls.jp/20180401.html)
     - [GTEx Portalを使ってヒトの各組織での遺伝子発現量や影響するeQTLを調べる](https://togotv.dbcls.jp/20180101.html)
-    - [TogoVar でヒトゲノムに存在するバリアントに関連する情報を調べる](https://togotv.dbcls.jp/20180825.html)
+    - [TogoVar でヒトゲノムに存在するバリアントに関連する情報を調べる 2019](https://togotv.dbcls.jp/20190819.html)
 
 ----
 
