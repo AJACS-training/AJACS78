@@ -3,9 +3,9 @@
 
 大学共同利用機関法人 情報・システム研究機構  
 データサイエンス共同利用基盤施設  
-ライフサイエンス統合データベースセンター
-[仲里 猛留](http://data.dbcls.jp/~nakazato/)
-nakazato@dbcls.rois.ac.jp
+ライフサイエンス統合データベースセンター  
+[仲里 猛留](https://dbcls.rois.ac.jp/~nakazato/)  
+nakazato@dbcls.rois.ac.jp  
 twitter: @chalkless
 
 2019年8月28日（水）
